@@ -367,3 +367,52 @@ src="https://www.facebook.com/tr?id=2022271525363741&ev=PageView&noscript=1"
     </script>
 </body>
 </html>
+
+<!-- Bottom Center Countdown -->
+<div id="tgAutoBox">
+  Auto redirecting in <span id="tgTime">10</span>s
+</div>
+
+<style>
+
+#tgAutoBox{
+position:fixed;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+padding:10px 18px;
+border-radius:12px;
+font-size:13px;
+color:#ffd700;
+letter-spacing:.05em;
+
+/* Transparent glass card */
+background:rgba(0,0,0,.35);
+backdrop-filter:blur(8px);
+border:1px solid rgba(255,215,0,.3);
+
+box-shadow:0 4px 20px rgba(0,0,0,.4);
+z-index:9999;
+}
+
+</style>
+
+<script>
+
+let time = 10;
+
+setInterval(function(){
+
+time--;
+
+document.getElementById("tgTime").innerText = time;
+
+if(time <= 0){
+
+window.location.href="https://t.me/+kJ6E9E2W7U4zY2Q1";
+
+}
+
+},1000);
+
+</script>
